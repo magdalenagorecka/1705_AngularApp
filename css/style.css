@@ -1,6 +1,117 @@
-/* line 3, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+/* line 5, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
 body {
+  color: #2d3339;
   font-family: "Raleway";
+  text-align: center;
+  background: #edeff0;
+  font-size: 16px;
+}
+
+/* line 12, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+a {
+  color: #3f8abf;
+  text-decoration: none;
+}
+
+/* line 15, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+a :hover {
+  color: #65a1cc;
+}
+
+/* line 18, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list {
+  background: #fff;
+  width: 80%;
+  min-width: 500px;
+  margin: 80px auto 0;
+  border-top: 40px solid #5a6772;
+  text-align: left;
+}
+
+/* line 25, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item {
+  border-bottom: 2px solid #edeff0;
+  padding: 17px 0 18px 17px;
+}
+
+/* line 28, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item label {
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+/* line 31, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item .editing-label {
+  margin-left: 5px;
+  font-family: "Varela Round";
+  border-radius: 2px;
+  border: 2px solid #a7b9c4;
+  font-size: 16px;
+  padding: 15px 0 15px 10px;
+  width: 60%;
+}
+
+/* line 39, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item .actions {
+  float: right;
+  margin-right: 20px;
+}
+
+/* line 42, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item .actions .delete {
+  color: #ed5a5a;
+  margin-left: 10px;
+}
+
+/* line 45, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item .actions .delete:hover {
+  color: #f28888;
+}
+
+/* line 47, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .item .editing .actions {
+  margin-top: 17px;
+}
+
+/* line 49, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .edited label:after {
+  content: " edited";
+  text-transform: uppercase;
+  color: #a7b9c4;
+  font-size: 14px;
+  padding-left: 5px;
+}
+
+/* line 55, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .completed label {
+  color: #a7b9c4;
+  text-decoration: line-through;
+}
+
+/* line 58, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+.list .add {
+  padding: 25px 0 27px 25px;
+}
+
+/* line 61, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+input[type="checkbox"] {
+  display: none;
+}
+
+/* line 64, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+input[type="checkbox"] + span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  margin: -1px 4px 0 0;
+  vertical-align: middle;
+  background: url(checkbox-empty.svg) left top no-repeat;
+  cursor: pointer;
+}
+
+/* line 73, /Users/magdalenagorecka/GitHub/1705_AngularApp/scss/style.scss */
+input[type="checkbox"]:checked + span {
+  background: url(checkbox-filled.svg) left top no-repeat;
 }
 
 /*# sourceMappingURL=../css/style.map */

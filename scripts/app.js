@@ -1,2 +1,7 @@
 
-angular.module("todoListApp",[]);
+angular.module("todoListApp",[])
+.controller('mainCtrl',function($scope){
+  $scope.helloWorld = function(){
+      console.log("Hello there! To jest mój controller");
+    };
+});
