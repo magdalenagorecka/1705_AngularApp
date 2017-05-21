@@ -1,4 +1,4 @@
-$font-primary: "Raleway";
+$font-primary: "Varela Round";
 $color-primary:#2d3339;
 $color-secondary:#3f8abf;;
 
@@ -20,11 +20,11 @@ $color-secondary:#3f8abf;;
    width: 80%;
    min-width: 500px;
    margin: 80px auto 0;
-   border-top: 40px solid #5a6772;
+   border-top: 40px solid #00bcd4;
    text-align: left;
    .item {
      border-bottom: 2px solid #edeff0;
-     padding: 17px 0 18px 17px;
+     padding: 30px 0 30px 17px;
       label {
        padding-left: 5px;
        cursor: pointer; }
@@ -32,19 +32,20 @@ $color-secondary:#3f8abf;;
        margin-left: 5px;
        font-family: "Varela Round";
        border-radius: 2px;
-       border: 2px solid #a7b9c4;
+
        font-size: 16px;
-       padding: 15px 0 15px 10px;
+       padding: 15px 10px 15px 10px;
        width: 60%; }
        .actions {
        float: right;
        margin-right: 20px;
+       border: 0px solid #a7b9c4;
      .delete {
          color: #ed5a5a;
          margin-left: 10px; }
         .delete:hover {
-           color: #f28888; }}
-    .editing .actions {
+             color: #f28888; }}
+    .editing-item .actions {
        margin-top: 17px; }}
   .edited label:after {
      content: " edited";
@@ -58,7 +59,7 @@ $color-secondary:#3f8abf;;
    .add {
      padding: 25px 0 27px 25px; }}
 
- input[type="checkbox"] {
+ /*input[type="checkbox"] {
      display:none;
  }
  input[type="checkbox"] + span {
@@ -73,3 +74,4 @@ $color-secondary:#3f8abf;;
  input[type="checkbox"]:checked + span {
      background:url(checkbox-filled.svg) left top no-repeat;
  }
+*/
